@@ -89,7 +89,10 @@ isn't installed on your machine, then you'll get an error. To fix it, you might:
    - Install [JavaFX] on your computer (preferred option, but don't spend a lot of
   time if it's not easy to install)
    -  Remove the graphics elements from the project and just use the text-based
-    runner. To do so, from the main directory of the project, run git checkout no-graphics. Then compile and run as you normally would. You're now working off a different branch of the assignment. I'm not quite sure how pull requests will work, but we'll figure it out :).
+   runner. To do so, from the main directory of the project, run
+   `git checkout no-graphics`. Then compile and run as you normally would. 
+   You're now working off a different branch of the assignment. I'm not quite 
+   sure how pull requests will work, but we'll figure it out :).
 
 You can also run the provided "internal" program on the command line, by typing
 `sbt "run internal.EmptyAPI"`in the top-level directory. (Note, if you run the
