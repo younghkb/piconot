@@ -67,14 +67,14 @@ instructions on what to write).
 
 I've provided a library that implements the semantics of Picobot (i.e., what
 happens when a program runs). You'll need to transform statements from your
-internal language into calls to the provided library.
+syntax into calls to the provided library.
 
 You'll need to understand the interface for the Picobot library (but not its
 implementation!). You should take a look at the file
 `src/main/scala/piconot/EmptyAPI.scala` for an example use of the library. You
 can also look at the library's [auto-generated documentation][API]. The code for
 the library itself is in the `lib` directory. Thanks to sbt, you shouldn't need
-to do anything special with the library to build and run your cod
+to do anything special with the library to build and run your code.
 
 ## Building and running the code
 
@@ -83,9 +83,9 @@ executing `sbt eclipse` in the top-level directory). Then open the file
 `src/main/scala/piconot.internal/EmptyAPI.scala` and run it.
 
 **Warning:** This provided code has a graphical version of a running program.
-The graphics rely on a Java graphics library called JavaFX. If this library
+The graphics rely on a Java library called JavaFX. If this library
 isn't installed on your machine, then you'll get an error. To fix it, you might:
-   - Match the version of ScalaFX to your Java version. If you get errors about 
+   - Match the version of ScalaFX to your Java version. 
    - Install [JavaFX] on your computer (preferred option, but don't spend a lot of
   time if it's not easy to install)
     -  Remove the graphics elements from the project and just use the text-based
