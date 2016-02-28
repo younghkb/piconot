@@ -77,24 +77,25 @@ to do anything special with the library to build and run your cod
 ## Building and running the code
 
 You should be able to load your code into ScalaIDE in the usual way (i.e., by
-executing `sbt eclipse` in the top-level directory).
-
-You can also run the program on the command line, by typing `sbt run` in the top
--level directory. (Note, if you run the program from the command line, you'll
-probably get a warning about a .css file, and the graphics for the buttons will
-look a bit different. The program should still work, though.) If you use sbt and
-the provided `build.sbt` file to build your code, you should  automatically have
-access to the Picobot library, and it will be included on your classpath when
-you compile and run.
+executing `sbt eclipse` in the top-level directory). Then open the file
+`src/main/scala/piconot.internal/EmptyAPI.scala` and run it.
 
 **Warning:** This provided code has a graphical version of a running program.
 The graphics rely on a Java graphics library called JavaFX. If this library
-isn't installed on your machine, then you'll get an error. To fix it, you can
-either:
+isn't installed on your machine, then you'll get an error. To fix it, you might:
+   - Match the version of ScalaFX to your Java version. If you get errors about 
    - Install [JavaFX] on your computer (preferred option, but don't spend a lot of
   time if it's not easy to install)
     -  Remove the graphics elements from the project and just use the text-based
     runner. To do so, from the main directory of the project, run git checkout no-graphics. Then compile and run as you normally would. You're now working off a different branch of the assignment. I'm not quite sure how pull requests will work, but we'll figure it out :).
+
+You can also run the provided "internal" program on the command line, by typing
+`sbt "run internal.EmptyAPI"`in the top-level directory. (Note, if you run the
+program from the command line, you'll probably get a warning about a .css file,
+and the graphics for the buttons will look a bit different. The program should
+still work, though.) If you use sbt and the provided `build.sbt` file to build
+your code, you should  automatically have access to the Picobot library, and it
+will be included on your classpath when you compile and run.
 
 ## Syntax implementation: internal DSL
 
