@@ -192,7 +192,7 @@ external DSL and how to run it on a piconot program. A somewhat easy way to do
 is the following:
 
 ```
-sbt run "maze-file bot-file"
+sbt run "path-to-maze-file path-to-bot-file"
 ```
 
 Note that for your users to run your language this way, you'll have to design
@@ -207,6 +207,9 @@ Alternatively, you can build a stand-alone jar file, which users can execute:
 ```
 scala -cp path-to-jar-file name-of-class-with-main-function maze-file bot-file
 ```
+
+**Make sure the build process works before your final submission!**
+
 
 ## Grading
 
