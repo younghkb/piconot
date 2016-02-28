@@ -2,6 +2,7 @@
 [Teams]: https://github.com/hmc-cs111-spring2016/piconot/wiki/Team-sign-ups
 [API]: http://www.cs.hmc.edu/courses/2016/spring/cs111/picolib/index.html#package
 [JavaFX]: https://docs.oracle.com/javafx/2/installation/jfxpub-installation.htm
+[emptyfile]: https://d1b10bmlvqabco.cloudfront.net/attach/ijjfckl6old4zz/hku6eqiwn313j8/il5k6nm8w0yk/empty.txt
 
 # Piconot
 
@@ -13,7 +14,7 @@ The goals of this assignment are to:
    - learn how to design a brand-new syntax
    - get some experience implementing a language the **wrong way**
    - get some experience implementing an external DSL (the _right_ way, we hope)
-   
+
 About implementing a language the wrong way:  You'll probably design a syntax
 that is either difficult to implement internally and  perhaps requires
 significant implementation effort on your part.  **This is good!** It's good to
@@ -45,7 +46,7 @@ way, so you'll also implement your syntax as an external DSL.)
 ## Warm-up: Picobot
 You should (re-)familiarize yourself with 
 [Picobot, as it's defined in CS 5][Picobot]. Make sure you understand the 
-"empty room" and "maze" Picobot programs (posted on Piazza).
+"empty room" and "maze" Picobot programs (posted on [Piazza][emptyfile]).
 
 ## Syntax design
 
