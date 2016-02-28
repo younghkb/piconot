@@ -1,4 +1,4 @@
-package piconot
+package piconot.internal
 
 import java.io.File
 import scalafx.application.JFXApp
@@ -98,7 +98,8 @@ object EmptyRoom extends JFXApp {
   object EmptyBot extends Picobot(emptyMaze, rules)
     with TextDisplay with GUIDisplay
 
+  stage = EmptyBot.mainStage
+
   EmptyBot.run()
 
-  stage = EmptyBot.mainStage
 }
