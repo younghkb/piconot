@@ -3,7 +3,7 @@
 [API]: http://www.cs.hmc.edu/courses/2016/spring/cs111/picolib/index.html#package
 [JavaFX]: https://docs.oracle.com/javafx/2/installation/jfxpub-installation.htm
 [emptyfile]: https://d1b10bmlvqabco.cloudfront.net/attach/ijjfckl6old4zz/hku6eqiwn313j8/il5k6nm8w0yk/empty.txt
-[ParserCombinatorResource]: http://bitwalker.org/scala/programming/tutorial/2013/08/10/learn-by-example-scala-parser-combinators/
+[ParserCombinatorResource]: http://bitwalker.org/posts/2013-08-10-learn-by-example-scala-parser-combinators/
 [ParserCombinatorAPI]: http://www.scala-lang.org/files/archive/api/2.11.7/scala-parser-combinators/#scala.util.parsing.combinator.package
 
 # Piconot
