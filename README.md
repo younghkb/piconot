@@ -226,8 +226,8 @@ may be helpful.
 ## Peer-review another team's work
 
 Comment on another team's design and implementation. You should look through
-their grammars, pay special attention to their `evaluation.md` file, their
-parser, and their intermediate representation. You might consider the following
+their grammars, pay special attention to their `design.md` and `evaluation.md`
+files, their internal DSL and their parser. You might consider the following
 questions:
 
   - What good insights about implementation did the team in `design.md`? Did
@@ -242,12 +242,6 @@ questions:
   - Are there any implementation tricks that you can suggest to the team?
   Anything you see that might make the implementation easier or more like the
   original design?
-
-Implement the syntax you designed, as an internal DSL in Scala. To do so, you'll
-want to consider how you'll connect your syntax to the semantics of Picobot
-(see below) and  how to organize your code. You'll also need to include a couple
-of sample programs and keep a running "diary" of your work. **Note:** If you're
-in the  group of three, you only need to implement one of the designs.
 
 ## Advice
 
