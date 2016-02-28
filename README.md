@@ -3,6 +3,8 @@
 [API]: http://www.cs.hmc.edu/courses/2016/spring/cs111/picolib/index.html#package
 [JavaFX]: https://docs.oracle.com/javafx/2/installation/jfxpub-installation.htm
 [emptyfile]: https://d1b10bmlvqabco.cloudfront.net/attach/ijjfckl6old4zz/hku6eqiwn313j8/il5k6nm8w0yk/empty.txt
+[ParserCombinatorResource]: http://bitwalker.org/scala/programming/tutorial/2013/08/10/learn-by-example-scala-parser-combinators/
+[ParserCombinatorAPI]: http://www.scala-lang.org/files/archive/api/2.11.7/scala-parser-combinators/#scala.util.parsing.combinator.package
 
 # Piconot
 
@@ -95,7 +97,7 @@ isn't installed on your machine, then you'll get an error. To fix it, you might:
    sure how pull requests will work, but we'll figure it out :).
 
 You can also run the provided "internal" program on the command line, by typing
-`sbt "run internal.EmptyAPI"`in the top-level directory. (Note, if you run the
+`sbt "run internal.EmptyAPI"` in the top-level directory. (Note, if you run the
 program from the command line, you'll probably get a warning about a .css file,
 and the graphics for the buttons will look a bit different. The program should
 still work, though.) If you use sbt and the provided `build.sbt` file to build
