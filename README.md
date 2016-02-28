@@ -1,6 +1,6 @@
 [Picobot]: https://www.cs.hmc.edu/twiki/bin/view/CS5/PicobotProgrammingGold
 [Teams]: https://github.com/hmc-cs111-spring2016/piconot/wiki/Team-sign-ups
-[API]: http://www.cs.hmc.edu/cs111/picolib/index.html#package
+[API]: http://www.cs.hmc.edu/courses/2016/spring/cs111/picolib/index.html#package
 [JavaFX]: https://docs.oracle.com/javafx/2/installation/jfxpub-installation.htm
 
 # Piconot

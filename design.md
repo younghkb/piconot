@@ -10,4 +10,4 @@
 
 ## On a scale of 1–10 (where 10 is “very different”), how different is your syntax from PicoBot’s original design?
 
-## Is there anything you don’t like about your design?
+## Is there anything you would improve about your design?
