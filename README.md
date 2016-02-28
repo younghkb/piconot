@@ -10,9 +10,10 @@
 This assignment asks you to re-design the syntax of an existing language
 (Picobot) and to implement your syntax as both an internal and external DSL.
 The goals of this assignment are to: 
-   - learn how to design a brand-new syntax,
-   - get some experience implementing a language the **wrong way**. 
+   - learn how to design a brand-new syntax
+   - get some experience implementing a language the **wrong way**
    - get some experience implementing an external DSL (the _right_ way, we hope)
+   
 About implementing a language the wrong way:  You'll probably design a syntax
 that is either difficult to implement internally and  perhaps requires
 significant implementation effort on your part.  **This is good!** It's good to
