@@ -124,11 +124,11 @@ Include at least two sample programs, for each implementation
 
 For the internal version, include the files:
 
-  1. `src/main/scala/piconot/Empty.scala`: a program in your internal DSL that 
+  1. `src/main/scala/piconot/internal/Empty.scala`: a program in your internal DSL that 
   can solve the empty maze. A file that describes an empty maze is in 
   `resources/empty.txt`.
   
-  2. `src/main/scala/piconot/RightHand.scala`: a program in your internal DSL 
+  2. `src/main/scala/piconot/internal/RightHand.scala`: a program in your internal DSL 
   that uses the right-hand rule to solve the maze in `resources/maze.txt`.
 
 ## Syntax implementation: external DSL
@@ -184,6 +184,14 @@ operator that you couldn't implement in Scala or integrate with your other ides
 is "a lot"), how much did you have to change your syntax? On a scale of 1–10
 (where 10 is "very difficult"), how difficult was it to map your syntax to the
 provided API?
+
+### Sample programs
+
+Include at least two sample programs, for each implementation
+
+For the external version, you can name the files as you like. One file should
+contain a program that solves the empty room; the other file should contain a
+program that solves the maze.
 
 ### Provide instructions for building and running your external DSL
 
