@@ -34,13 +34,13 @@ way, so you'll also implement your syntax as an external DSL.)
   - [ ] Implement your new syntax as an internal DSL
      - [ ] Add files, as needed, to implement your syntax
      - Include two example programs
-       - [ ] `src/main/scala/piconot/Empty.scala`
-       - [ ] `src/main/scala/piconot/RightHand.scala`
+       - [ ] `src/main/scala/piconot/internal/Empty.scala`
+       - [ ] `src/main/scala/piconot/internal/RightHand.scala`
      - [ ] Describe your implementation process in `evaluation.md`
   - [ ] Implement your new syntax as an external DSL, using parser combinators
      - Include at least two example programs
-        - [ ] `Empty.bot`
-        - [ ] `RightHand.bot`
+        - [ ] `src/main/scala/piconot/external/Empty.bot`
+        - [ ] `src/main/scala/piconot/external/RightHand.bot`
      - [ ] Provide instructions for how to run piconot in `build.md`
      - [ ] Describe your implementation process in `evaluation.md`
   - [ ] Critique another team's design and implementation
@@ -120,16 +120,17 @@ you have to change your syntax?
 
 ### Sample programs
 
-Include at least two sample programs, for each implementation
+Include at least two sample programs.
 
 For the internal version, include the files:
 
-  1. `src/main/scala/piconot/internal/Empty.scala`: a program in your internal DSL that 
-  can solve the empty maze. A file that describes an empty maze is in 
+  1. `src/main/scala/piconot/external/Empty.bot`: a program in your internal
+  DSL that can solve the empty room. A file that describes an empty room is in 
   `resources/empty.txt`.
   
-  2. `src/main/scala/piconot/internal/RightHand.scala`: a program in your internal DSL 
-  that uses the right-hand rule to solve the maze in `resources/maze.txt`.
+  2. `src/main/scala/piconot/external/RightHand.bot`: a program in your
+  internal DSL that uses the right-hand rule to solve the maze in 
+  `resources/maze.txt`.
 
 ## Syntax implementation: external DSL
 
@@ -187,11 +188,18 @@ provided API?
 
 ### Sample programs
 
-Include at least two sample programs, for each implementation
+Include at least two sample programs.
 
-For the external version, you can name the files as you like. One file should
-contain a program that solves the empty room; the other file should contain a
-program that solves the maze.
+For the internal version, include the files:
+
+  1. `src/main/scala/piconot/external/Empty.bot`: a program in your internal
+  DSL that
+  can solve the empty room. A file that describes an empty room is in 
+  `resources/empty.txt`.
+  
+  2. `src/main/scala/piconot/internal/RightHand.scala`: a program in your internal DSL 
+  that uses the right-hand rule to solve the maze in `resources/maze.txt`.
+
 
 ### Provide instructions for building and running your external DSL
 
